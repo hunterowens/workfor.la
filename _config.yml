@@ -1,7 +1,7 @@
 # Setup
-title:        Project or Site name
-tagline:      A responsive theme for your project on GitHub Pages
-baseurl:      ""
+title:        WorkFor.LA
+tagline:      It takes a year, but it’s worth a lifetime!
+baseurl:      "http://www.workfor.la"
 paginate:     1
 
 # About/contact
