@@ -4,7 +4,21 @@ title: {{ site.name }}
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
+  <h1>About</h1>
+  <h2>It takes a year, but it’s worth a lifetime!</h2>
+  <p><a href="./about.html">We</a> want you to work for the City of Los Angeles. However, the process involved in getting a City Job can be a bit confusing. This site exists to help explain the process and help make it easier to persue a public service career.</p>
+
+  <p>Currently, there are 3 different types of City Job. Exempt, Civil Service and Contractor. The vast majority of City Jobs are Civil Service Jobs.</p> 
+    
+  <p>Regular jobs (also called "civil service" or "non-exempt") are the majority of jobs in the City . To get hired into one of those jobs is a lot more bureaucratic: Take a test specific to that job, get a score, interview in very structured panel interviews. It's a weird process. That said, once you're in, there's a lot more job security. (For example, if you're "exempt" and you work for a councilmember, when he loses an election, you're probably out of a job. But that wouldn't be the case with a "regular" job.) If you're interested in checking out Regular opportunities, here's the list of current exams that are open. They probably won't interest you, since they're generally not political, but take a look at the <a href="https://www.governmentjobs.com/careers/lacity">Government Jobs site</a>.</p>
+  
+  <p>Exempt Jobs are listed at the <a href="http://per.lacity.org/index.cfm?content=exemptjobs">Personnel Department Site</a>. Apply for them is as simple as submiting a resume.</p>
+
+  <p>Contractor Jobs are for IT Contract Professionals within the City. (Think DevOps, Database Adminstrator, Data Scientist among a few examples). The Information Technology Agency maintains a contract with <a href="http://ita.lacity.org/about-ita/it-professional-contract-firms">7 Professional Contract Firms</a>. You have to contract them to apply for the jobs that are <i>typically</i> annual contract jobs. However, the process for getting hired as a contractor is much shorter than getting hired as regular/civil service employee.</p>
+  
+  <h1>FAQ</h1>
+  
+  <p>This FAQ lists a bunch of common questions for folks applying for regular/civil service jobs.</p>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
