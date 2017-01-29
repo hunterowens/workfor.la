@@ -4,8 +4,7 @@ title: {{ site.name }}
 ---
 
 <div id="home">
-  <h1>About</h1>
-  <h2>It takes a year, but it’s worth a lifetime!</h2>
+  <h1>It takes a year, but it’s worth a lifetime!</h1>
   <p><a href="./about.html">We</a> want you to work for the City of Los Angeles. However, the process involved in getting a City Job can be a bit confusing. This site exists to help explain the process and help make it easier to persue a public service career.</p>
 
   <p>Currently, there are 3 different types of City Job. Exempt, Civil Service and Contractor. The vast majority of City Jobs are Civil Service Jobs.</p> 
@@ -22,8 +21,25 @@ title: {{ site.name }}
   <ul class="posts">
     {% for post in site.posts %}
       <li><span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-          <p> {{ post.content}}   </p> 
+          <p> {{ post.content}}</p> 
       </li>
     {% endfor %}
   </ul>
+
+  <h1>About</h1>
+  <h2>Questions?</h2>
+  <p>Still confused? Email us at <a href="mailto:workforla@googlegroups.com">WorkForLA@googlegroups.com</a> and we'll do our best to get back to you.</p> 
+
+  <h2>Comments/Concerns/Additional Feedback?</h2>
+  
+  <p>Please feel free to open an issue/PR on <a href="https://github.com/hunterowens/workfor.la">Github</a> or Email us at <a href="mailto:workforla@googlegroups.com">WorkForLA@googlegroups.com</a>. </p> 
+  <h2>Team</h2>
+    <p>This is a volunteer, <a href="https://github.com/hunterowens/workfor.la" target="_blank">open-source</a> project at <a href="http://HackForLA.org/" target="_blank">Hack for LA</a>. It in no way reflects the official opinions of the City of LA or it's employees.</p>
+
+    <p>Contributors:</p>
+    <ul>
+      <li>Hunter Owens</li>
+      <li>Leonard Hyman</li>
+    </ul>
+  </div>
 </div>
