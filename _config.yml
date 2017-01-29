@@ -1,13 +1,13 @@
 # Setup
 title:        WorkFor.LA
 tagline:      It takes a year, but it’s worth a lifetime!
-baseurl:      "http://www.workfor.la"
+baseurl:      ""
 paginate:     1
 
 # About/contact
 author:
-  name:       Author name
-  url:        http://yourhomepage.com 
+  name:       Hack for LA
+  url:        http://HackForLA.org 
 
 # Gems
 gems:
