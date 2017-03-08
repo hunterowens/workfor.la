@@ -1,6 +1,8 @@
 ## Work for Los Angeles
 
-This is a site that helps explain how to work for the City of Los Angeles. 
+The City of Los Angeles faces a retirement crisis. 46% of City workers will be eligible for retirement in the next 2 years. 
+
+Part of the challenge is that applying for civil service jobs (which compose the majority of City workers) is confusing and time-consuming. This project aims to explain the process to prospective applicants and encourage them to apply. 
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
