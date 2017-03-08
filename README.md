@@ -1,3 +1,9 @@
+# WorkFor.LA
+
+The City of Los Angeles faces a retirement crisis. 46% of City workers will be eligible for retirement in the next 2 years.
+
+Part of the challenge is that applying for civil service jobs (which compose the majority of City workers) is confusing and time-consuming. This project aims to explain the process to prospective applicants and encourage them to apply.
+
 # Jekyll Cayman theme
 
 This is a [Jekyll][1] theme for [@jasonlong][2]'s [Cayman theme][4] on [GitHub Pages][3].
