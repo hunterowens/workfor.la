@@ -1,39 +1,75 @@
-## Work for Los Angeles
+# WorkFor.LA
 
-The City of Los Angeles faces a retirement crisis. 46% of City workers will be eligible for retirement in the next 2 years. 
+The City of Los Angeles faces a retirement crisis. 46% of City workers will be eligible for retirement in the next 2 years.
 
-Part of the challenge is that applying for civil service jobs (which compose the majority of City workers) is confusing and time-consuming. This project aims to explain the process to prospective applicants and encourage them to apply. 
+Part of the challenge is that applying for civil service jobs (which compose the majority of City workers) is confusing and time-consuming. This project aims to explain the process to prospective applicants and encourage them to apply.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Jekyll Cayman theme
 
-### Markdown
+This is a [Jekyll][1] theme for [@jasonlong][2]'s [Cayman theme][4] on [GitHub Pages][3].
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Cayman is a clean, responsive theme for [GitHub Pages](https://pages.github.com). This theme is available as an option if you use the [Automatic Page Generator](https://help.github.com/articles/creating-pages-with-the-automatic-generator/) or you can copy the template and styles to use on your own.
 
-```markdown
-Syntax highlighted code block
+You can preview the theme at http://jasonlong.github.io/cayman-theme or with real content at http://jasonlong.github.io/geo_pattern.
 
-# Header 1
-## Header 2
-### Header 3
+![](http://cl.ly/image/1T3r3d18311V/content)
 
-- Bulleted
-- List
+# How to use it?
 
-1. Numbered
-2. List
+Download the theme @ http://github.com/pietromenna/jekyll-cayman-theme/archive/master.zip
 
-**Bold** and _Italic_ and `Code` text
+Unzip it and use it as a regular jekyll folder.
 
-[Link](url) and ![Image](src)
+```
+$ unzip jekyll-cayman-theme-master.zip
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Get inside the newly extracted folder
+```
+$ cd jekyll-cayman-theme-master
+```
 
-### Jekyll Themes
+Get the required gems
+```
+$ bundle install
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hunterowens/workfor.la/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Use it!
 
-### Support or Contact
+```
+$ jekyll serve
+```
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+For more details read about [Jekyll][1] on its web page.
+
+# Setup
+
+Some important configuration can be done in the file `_config.yml`. Please, check the Setup section in that file.
+
+
+## baseurl
+
+`baseurl` parameter is required in the case the site doesn't sit on the root of the domain. For example: http://pietromenna.github.io/jekyll-cayman-theme
+
+In the case above the baseurl should be set to "/jekyll-cayman-theme".
+
+In the case the site sits in the root, you can leave `baseurl` as empty "".
+
+# Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/pietromenn/jekyll-cayman-theme.
+
+# Development
+
+To set up your environment to develop this theme, run `bundle install`.
+
+You theme is setup just like a normal Jelyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+
+# License
+
+This work is licensed under a [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/) license.
+
+[1]: http://jekyllrb.com/
+[2]: https://github.com/jasonlong
+[3]: http://pages.github.com/
+[4]: https://github.com/jasonlong/cayman-theme

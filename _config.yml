@@ -1,1 +1,17 @@
-theme: jekyll-theme-cayman
+# Setup
+title:        WorkFor.LA - Learn the process to work for the City of Los Angeles
+tagline:      It takes a year, but it’s worth a lifetime!
+baseurl:      ""
+paginate:     1
+
+# About/contact
+author:
+  name:       Hack for LA
+  url:        http://HackForLA.org 
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown

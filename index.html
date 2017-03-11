@@ -1,0 +1,53 @@
+---
+layout: default
+title: {{ site.name }}
+---
+<div align="right" id="cite">
+  <i>Image courtesy <a href="https://en.wikipedia.org/wiki/Los_Angeles_City_Hall#/media/File:Los_Angeles_City_Hall_2013.jpg">Michael Fromholtz via Wikipedia</a></i> 
+</div>
+<div id="home">
+  <h1>It takes a year, but it’s worth a lifetime!</h1>
+  <p><a href="./#team">We</a> want you to work for the City of Los Angeles. However, the process involved in getting a City Job can be a bit confusing. This site exists to help explain the process and help make it easier to pursue a public service career.</p>
+
+  <p>Currently, there are three different types of city jobs; <b>Civil Service</b>, <b>Exempt</b>, and <b>Contractor</b>.</p>
+
+  <p><b>Civil Service Jobs</b> (also called "regular" or "non-exempt") are the majority of jobs in the City. To get hired into one of these jobs: Take a test specific to that job, get a score, interview in structured panel interviews. Once you're hired, there's a lot more job security. If you're interested in checking out Regular opportunities, <a href="https://www.governmentjobs.com/careers/lacity">here's the list of current exams that are open.</a></p>
+
+  <p><b>Exempt Jobs</b> are listed at the <a href="http://per.lacity.org/index.cfm?content=exemptjobs">Personnel Department Site</a>. Applying for them is as simple as submitting a resume. Be aware that they are often somewhat political. For example, if you work for a councilmember, when he loses an election, you're probably out of a job. But that wouldn't be the case with a "regular" job.)</p>
+
+  <p><b>Contractor Jobs</b> are for IT Contract Professionals within the City. (Think DevOps, Database Administrator, Data Scientist among a few examples). The Information Technology Agency maintains a contract with <a href="http://ita.lacity.org/about-ita/it-professional-contract-firms">7 Professional Contract Firms</a>. You have to contract them to apply for the jobs that are <i>typically</i> annual contract jobs. However, the process for getting hired as a contractor is much shorter than getting hired as regular/civil service employee.</p>
+
+  <h1>FAQ</h1>
+
+  <p>This FAQ lists a bunch of common questions for folks applying for regular/civil service jobs.</p>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          <p> {{ post.content}}</p>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h1>About</h1>
+  <h2>Questions?</h2>
+  <p>Still confused? Email us at <a href="mailto:workforla@googlegroups.com">WorkForLA@googlegroups.com</a> and we'll do our best to get back to you.</p>
+
+  <h2>Comments/Concerns/Feedback?</h2>
+
+  <p>Please feel free to open an issue/PR on <a href="https://github.com/hunterowens/workfor.la">Github</a> or Email us at <a href="mailto:workforla@googlegroups.com">WorkForLA@googlegroups.com</a>. </p>
+  <h2>Team</h2>
+    <p>This is a volunteer, <a href="https://github.com/hunterowens/workfor.la" target="_blank">open-source</a> project at <a href="http://HackForLA.org/" target="_blank">Hack for LA</a>. It in no way reflects the official opinions of the City of LA or its employees.</p>
+    <div id="team">
+    <p>Contributors:</p>
+    </div>
+    <ul>
+      <!--alphabetical-->
+      <li>Keaton Boyle</li>
+      <li>Leonard Hyman</li>
+      <li>Hunter Owens</li>
+      <li>Danny Prikaz</li>
+      <li>Chelsea Ursaner</li>
+      <li>Dana Vanderford</li>
+    </ul>
+  </div>
+</div>
